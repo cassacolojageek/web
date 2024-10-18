@@ -82,10 +82,6 @@ section {
   margin: 0;
 }
 
-ul {
-  /* font-size: 2em; */
-}
-
 #produtos {
   background-color: transparent;
 }
@@ -97,27 +93,30 @@ ul {
 
 #lancamentos .container {
   padding: 0;
-  width: 100%;
+/*   width: 100%; */
+  position: relative;
+  right: 50px;
 }
 
 #produtos .container {
   padding: 0;
-  width: 100%;
+/*   width: 100%; */
 }
 
 h2 {
-  font-size: 0.9em !important;
+  font-size: 0.9rem !important;
 
 }
 p {
-  font-size: 0.8em;
+  font-size: 0.8rem;
 }
 
 footer {
   background-color: #bdac7f;
   text-align: center;
-  padding: 1em;
+  padding: 1rem;
   width: 100%;
-  bottom: 0;
+  height: 10rem;
+  position: relative;
   border-top: 1px solid #ffffff;
 }
